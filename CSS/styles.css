@@ -4,33 +4,70 @@ body{
     background-color: black;
     
 }
+
 /* top carousel */
 #carousel-top{
     margin: 8% 8% 0% 8%;
 }
-.radius{
+.carousel-img{
     border-radius: 10px;
 }
+
+/* mobile css for top-carousel */
 @media  (max-width:900px){
     #carousel-top{
         margin: 20% 1% 0% 1%;
     }
 }
 
+ /* section what is minecraft  */
 .top-part{
     font-family: 'Montserrat', sans-serif;
    
-    margin: 4% 2% 200% 2%;
-    
+    margin: 4% 8% 200% 8%;
+    }
+    .container-fluid{
+        padding: 3% 2%;
+        background-color:#222831 ;
+        color: white;
+       
+    }
+    @media (max-width:900px){
+        .container-fluid{
+            text-align: center;
+           
+        }
+        .top-part{
+            margin: 4% 1% 200% 1%;
+        }
+    }
 
-   
-}
+    /* imgage propert */
+    .whatis-img{
+        text-align: center  ;
+        border-radius: 10px;
+        margin: 20px 20px 20px 20px;
+        height: 100%;
+        width: 100%;
+        padding: 0px 35px 35px 0px;
+    }
+
+
+
+
+
 #whatis{
-     text-align: center;
+     text-align: left;
     font-size: 3rem;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
     
+}
+@media (max-width:900px){
+    #whatis{
+        text-align: center;
+        
+    }
 }
 #why{
     padding:200px 20px 200px 20px;
@@ -62,11 +99,7 @@ body{
     font-weight: bold;
 }
 
-.container-fluid{
-    padding: 3% 15%;
-    background-color:#222831 ;
-    color: white;
-}
+
 .navbar{
     padding: 0.4% 2%;
 }
