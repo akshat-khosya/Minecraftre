@@ -11,6 +11,11 @@ body{
 .radius{
     border-radius: 10px;
 }
+@media  (max-width:900px){
+    #carousel-top{
+        margin: 20% 1% 0% 1%;
+    }
+}
 
 .top-part{
     font-family: 'Montserrat', sans-serif;
