@@ -1,0 +1,107 @@
+/* body of html*/
+body{
+    font-family: 'Sacramento', cursive; 
+    background-color: black;
+    
+}
+/* top carousel */
+#carousel-top{
+    margin: 8% 8% 0% 8%;
+}
+.radius{
+    border-radius: 10px;
+}
+
+.top-part{
+    font-family: 'Montserrat', sans-serif;
+   
+    margin: 4% 2% 200% 2%;
+    
+
+   
+}
+#whatis{
+     text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#why{
+    padding:200px 20px 200px 20px;
+    
+
+}
+.why{
+    background-color: #393e46;
+    color: rgb(240, 228, 228);
+    font-family: 'Montserrat', sans-serif;
+   
+    
+    padding: 40px 0px 0px 0px;
+    
+    
+}
+.wedo{
+    background-color: #00adb5;
+    margin: 0px 20px 200px 20px;
+    padding: 40px 0px 0px 0px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom{
+    background-color: #eeeeee;
+    margin: 40px 20px 100px 20px;
+    padding: 40px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    background-color:#222831 ;
+    color: white;
+}
+.navbar{
+    padding: 0.4% 2%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 225%;
+    font-weight: bold;
+}
+.nav-item{
+    margin: 0px 30px   ;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+.learn{
+    margin: 2% 2%;
+}
+.event{
+    margin: 0% 2%;
+}
+.btn{
+    font-family: 'Sacramento', cursive;
+}
+.clickme{
+     margin: 0% 1%;
+}
+li{
+    display: inline;
+}
+.insta{
+    margin: 0px 8px 0px 8px;
+}
+.yout{
+    margin: 0px 8px 0px 8px;
+}
+.disc{
+    margin: 0px 8px 0px 8px;
+}
+.wedo-img{
+    padding: 65px 0px;
+}
