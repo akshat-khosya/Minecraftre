@@ -72,6 +72,7 @@ body{
 }
 #why{
     margin: 8% 20% 10% 20%;
+    padding: 12.5% 0% 0% 0%;
 
     
 
@@ -108,17 +109,35 @@ body{
 .col-6-lg{
     padding: 0px 0px 10px 0px;
 }
+#wedo{
+    margin: 8% 20% 10% 20%;
+    padding: 12.5% 0% 0% 0%;
+
+}
 .wedo{
-    background-color: #00adb5;
-    margin: 0px 20px 200px 20px;
-    padding: 40px 0px 0px 0px;
+    text-align: left;
+    background-color: #222831;
+    
+    
+    padding: 3% 2%;
     color:white;
     font-family: 'Montserrat', sans-serif;
 }
+@media (max-width:900px) {
+    #wedo{
+        
+        margin: 0% 1% 20% 1%;
+    }
+    .wedo-car{
+        text-align: center;
+        padding: 0% 2% 2% 2%;
+    }
+}
 .bottom{
-    background-color: #eeeeee;
-    margin: 40px 20px 100px 20px;
-    padding: 40px 0px 0px 0px;
+    background-color: #222831;
+    color: white;
+    margin: 8% 0% 0% 0%;
+    padding: 1.2% 0% 0% 0%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
