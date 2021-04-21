@@ -70,7 +70,13 @@ function navitemclick(){
 
 }
 document.querySelector(".why-img").addEventListener("mouseenter", imgeffect);
-function imgeffect(){
+function imgeffect() {
     document.querySelector(".why-img").src = "Image/what.jpg";
-    document.querySelector(".why-img").style.padding="1% 1% 1% 1%";
+    document.querySelector(".why-img").style.width="102%";
+}
+document.querySelector(".why-img").addEventListener("mouseleave", imgeffectrev);
+function imgeffectrev(){
+    document.querySelector(".why-img").src = "Image/what-black.jpg";
+    document.querySelector(".why-img").style.width="100%";
+    
 }
