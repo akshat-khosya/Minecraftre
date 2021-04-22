@@ -41,34 +41,95 @@ function brandclick(){
     }
 }
 
-document.querySelector(".nav-link").addEventListener("click", navitemclick);
-function navitemclick(){
-    var numitemcolor=Math.round(Math.random()*7);
+var navlinknum = document.querySelectorAll(".navbaritem").length;
+
+   for(var i=0;i<navlinknum;i++){
+
+    document.querySelectorAll(".navbaritem")[i].addEventListener("click", navitemclick);
     
-    if(numitemcolor===0){
-        document.querySelector(".nav-link").style.color="red";
-    }
-    else if(numitemcolor===1){
-        document.querySelector(".nav-link").style.color="green";
-    }
-    else if(numitemcolor===2){
-        document.querySelector(".nav-link").style.color="white";
-    }
-    else if(numitemcolor===3){
-        document.querySelector(".nav-link").style.color="blue";
-    }
-    else if(numitemcolor===4){
-        document.querySelector(".nav-link").style.color="yellow";
-    }
-    else if(numitemcolor===5){
-        document.querySelector(".nav-link").style.color="pink";
-    }
-    else if(numitemcolor===6){
-        document.querySelector(".nav-link").style.color="brown";
-    }
+    function navitemclick(){
+        var navlinkinnerhtml=this.innerHTML;
+        switch(navlinkinnerhtml){
+            case "About":
+                var numitemcolor=Math.round(Math.random()*7);
+                if(numitemcolor===0){
+                    document.querySelectorAll(".navbaritem")[0].style.color= "red";
+                    }
+                    else if(numitemcolor===1){
+                        document.querySelectorAll(".navbaritem")[0].style.color= "green";
+                    }
+                    else if(numitemcolor===2){
+                        document.querySelectorAll(".navbaritem")[0].style.color= "white";
+                    }
+                    else if(numitemcolor===3){
+                        document.querySelectorAll(".navbaritem")[0].style.color= "blue";
+                    }
+                    else if(numitemcolor===4){
+                        document.querySelectorAll(".navbaritem")[0].style.color= "yellow";
+                    }
+                    else if(numitemcolor===5){
+                        document.querySelectorAll(".navbaritem")[0].style.color= "pink";
+                    }
+                    else if(numitemcolor===6){
+                        document.querySelectorAll(".navbaritem")[0].style.color= "brown";
+                    }
+                    break;
+                    case "Work":
+                        var numitemcolor=Math.round(Math.random()*7);
+                        if(numitemcolor===0){
+                            document.querySelectorAll(".navbaritem")[1].style.color= "red";
+                            }
+                            else if(numitemcolor===1){
+                                document.querySelectorAll(".navbaritem")[1].style.color= "green";
+                            }
+                            else if(numitemcolor===2){
+                                document.querySelectorAll(".navbaritem")[1].style.color= "white";
+                            }
+                            else if(numitemcolor===3){
+                                document.querySelectorAll(".navbaritem")[1].style.color= "blue";
+                            }
+                            else if(numitemcolor===4){
+                                document.querySelectorAll(".navbaritem")[1].style.color= "yellow";
+                            }
+                            else if(numitemcolor===5){
+                                document.querySelectorAll(".navbaritem")[1].style.color= "pink";
+                            }
+                            else if(numitemcolor===6){
+                                document.querySelectorAll(".navbaritem")[1].style.color= "brown";
+                            }
+                            break;
+                            case "Team":
+                                var numitemcolor=Math.round(Math.random()*7);
+                                if(numitemcolor===0){
+                                    document.querySelectorAll(".navbaritem")[2].style.color= "red";
+                                    }
+                                    else if(numitemcolor===1){
+                                        document.querySelectorAll(".navbaritem")[2].style.color= "green";
+                                    }
+                                    else if(numitemcolor===2){
+                                        document.querySelectorAll(".navbaritem")[2].style.color= "white";
+                                    }
+                                    else if(numitemcolor===3){
+                                        document.querySelectorAll(".navbaritem")[2].style.color= "blue";
+                                    }
+                                    else if(numitemcolor===4){
+                                        document.querySelectorAll(".navbaritem")[2].style.color= "yellow";
+                                    }
+                                    else if(numitemcolor===5){
+                                        document.querySelectorAll(".navbaritem")[2].style.color= "pink";
+                                    }
+                                    else if(numitemcolor===6){
+                                        document.querySelectorAll(".navbaritem")[2].style.color= "brown";
+                                    }
+                                    break;
+                                    default: console.log(numitemcolor);
 
+        }
+        
+        }
+} 
 
-}
+   
 document.querySelector(".why-img").addEventListener("mouseenter", imgeffect);
 function imgeffect() {
     document.querySelector(".why-img").src = "Image/what.jpg";
